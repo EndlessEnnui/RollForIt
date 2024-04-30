@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body, html{
+    overflow-x: hidden;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+}
+
+button {
+    z-index: 3;
+}
+
+#myLabel{
+    font-family: fantasy;
+    color: red;
+    font-family: "Jacquard 24", system-ui;
+    font-size: 10em;
+    z-index: 4;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -75%);
+    position: absolute;
+}
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.title{
+    color: red;
+    z-index: 2;
+    position: absolute;
+    font-size: 5em;
+    text-align: center;
+   left: 50%;
+   top: 5%;
+   transform: translate(-50%, -5%);
+   opacity: .9;
+}
+#text{
+    color: black;
+    z-index: 3;
+    text-align: center;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+    position: absolute;
+    font-size: 3em;
+  
+}
+#play{
+    font-family: "Jacquard 24", system-ui;
+    color: black;
+    background-color: ;
+    z-index: 5;
+    text-align: center;
+    left: 50%;
+    top: 97%;
+    transform: translate(-50%, -95%);
+    position: absolute;
+    font-size: 3em;
+    visibility: hidden;
+}
+
+
+
+
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}

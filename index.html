@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Honk&family=Jacquard+12+Charted&family=Jacquard+24&family=Jacquarda+Bastarda+9&family=Jersey+15&family=League+Spartan:wght@100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Starter File</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- use an import map to link to the Three.js CDN -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.162.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.162.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <!-- Link to your Javascript file as a type="module", this will execute the file after the HTML is loaded -->
+    
+    
+</head>
+
+
+<body>
+  <canvas class ="webgl"></canvas>
+    <header>
+      <h1 class="title">What's in store for you today? Roll and find out!</h1>
+     
+        <label id="myLabel"></label>
+        <label class="fade-in" id="text"></label>
+        <audio id="song" src="assets\music\funny.mp3"></audio>
+        <audio id="sfx" src="assets\music\diceroll.mp3"></audio>
+        <button id="play">Music</button>
+    </header>
+    <script type="module" src="js/sound.js"></script>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

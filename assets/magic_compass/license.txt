@@ -1,0 +1,11 @@
+Model Information:
+* title:	Magic compass
+* source:	https://sketchfab.com/3d-models/magic-compass-2ae5a901f2bd4e4d8001b1c579b3f96b
+* author:	AprilMoon (https://sketchfab.com/AprilMoon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Magic compass" (https://sketchfab.com/3d-models/magic-compass-2ae5a901f2bd4e4d8001b1c579b3f96b) by AprilMoon (https://sketchfab.com/AprilMoon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
